@@ -407,6 +407,8 @@ class VCSHANDLER extends Helper {
                 copyFolder(new File(".kiwi/objects"), commitObjectsDir);
                 copyFolder(new File(".kiwi/index"), commitIndexDir);
 
+                System.out.println(Colors.GREEN+"Commited successfully!"+Colors.RESET);
+
             }
             catch(Exception e)
         {
